@@ -1,0 +1,84 @@
+.resizeimg img{
+    width: 100%;
+}
+
+html, body{
+    background-color: #ffffff;
+}
+
+body{
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 0.75vw;
+    font-weight: normal;
+    
+    color: #000000;
+    
+    line-height: 1.2;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.title{
+    font-size: 1.5vw;
+    
+    font-weight: bold;
+}
+
+.sec{
+    background-color: #eeeeee;
+    
+    width: 27.5vw;
+    height: auto;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+    
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    
+    padding-top: 1vw;
+    padding-bottom:1vw;
+    
+    text-align: justify;
+    
+    line-height: 2.2;
+    
+}
+
+.none{
+    color: #000000;
+    display: inline;
+    
+    text-align: justify;
+}
+
+.hide{
+    color: #00000000;
+    
+    width: 75px;
+    
+    background-color: #444444;
+    
+    display: inline;
+    
+    transition: all 0.4s;
+    
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    
+    font-weight: normal;
+}
+
+.hide:hover{
+    color: #000000;
+    
+    background-color: #eeeeee;
+    
+    font-weight: bold;
+}
